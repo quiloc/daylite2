@@ -1,0 +1,261 @@
+.slider {
+    background: #2a2a2a;
+    padding: 60px 0;
+}
+
+.slider-inner {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.slider-content {
+    padding-right: 120px;
+}
+
+h1 { 
+    display: block;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-bottom: 20px;
+    color: #a59477;
+}
+
+.slider h3 { 
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-bottom: 35px;
+    color: #858585;
+}
+
+.purchase {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: 2px solid #a59477;
+    border-radius: 5%;
+    background-color: #2a2a2a;
+    color: #a59477;
+}
+
+.intro {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 60px 0;
+}
+
+h3 {
+    display: block;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #767676;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #b2b2b2;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.intro-inner .purchase {
+    background-color: #f4f4f4
+}
+
+.pricing {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 2px solid #a57780;
+    border-radius: 5%;
+    background-color: #f4f4f4;
+    color: #a57780;
+}
+
+.process-inner, .portfolio-inner, .blog-about-inner {
+    margin-top: 60px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-inner {
+    padding: 0 30px;
+    text-align: center;
+    position: relative;
+}
+
+.item-inner:first-child {
+    padding: 0 30px 0 0;
+}
+
+.item-inner:last-child {
+    padding: 0 0 0 30px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #767676;
+    margin: 25px 0 15px;
+}
+
+.item-inner p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.arrow {
+    border: solid #a59477;
+    border-width: 0 3px 3px 0;
+    display: block;
+    padding: 3px;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 25%;
+    right: 0;
+}
+
+.portfolio-item {
+    text-align: center;
+    border: 1px solid #9f9f9f;
+    width: 280px;
+    height: 295px;
+}
+
+.portfolio-img {
+    width: 280px;
+    height: 210px;
+    background-color: #9f9f9f;
+}
+
+.portfolio-item  h5 {
+    font-size: 15px;
+    margin: 25px 0 0;
+}
+
+.portfolio-item  p {
+    font-size: 13px;
+    color: #a59477;
+    margin: 5px 0 25px;
+    line-height: normal;
+}
+
+.blog-about-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-about-inner p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.blog {
+    width: 48%;
+}
+
+.about {
+    width: 48%;
+}
+
+.post-inner {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.post-day {
+    margin-right: 20px;
+}
+
+.post-day-content {
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #a59477;
+    color: #a59477;
+    border-radius: 50%;
+    text-align: center;
+    width: 60px;
+    padding: 15px 0;
+}
+
+.month {
+    font-size: 12px;
+}
+
+.post-content h5 {
+    margin: 0 0 15px;
+}
+
+.post-author {
+    display: flex;
+    font-size: 12px;
+    color: #a59477;
+    margin: 12px 0 15px;
+}
+
+.author-inner {
+    border-right: 1px solid #a59477;
+    padding: 0 8px;
+}
+
+.author-inner:first-child {
+    padding: 0 8px 0 0 ;
+}
+
+.author-inner:last-child {
+    border-right: none;
+}
+
+.post-content p {
+    margin-bottom: 20px;
+}
+
+.continue {
+    font-size: 12px;
+    color: #a59477;
+}
+
+.about-inner {
+    color: #b2b2b2;
+    line-height: 20px;
+}
+
+li {
+    font-size: 14px;
+}
+
+li::before {
+    content: "\f111";
+    margin-right: 10px;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    border-top: 2px solid #e7e7e7;
+    padding: 60px 0;
+}
+
+.testimonial-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.testimonial-inner p {
+    margin: 30px 0 20px 0;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: #a59477;
+}
+
