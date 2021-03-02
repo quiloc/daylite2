@@ -1,0 +1,123 @@
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    border-right: 1px solid #a7a7a7;
+    color: #a7a7a7;
+    font-size: 13px;
+    padding: 15px 30px 15px 0;
+}
+
+.header-menu .menu-item {
+    position: relative;
+}
+
+a:hover {
+    color: #a59477;
+}
+
+.menu-item {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+li.active > a {
+    color: #a59477;
+}
+
+li:hover > a {
+    color: #a59477;
+}
+
+.menu-item .menu-child {
+    position: absolute;
+    width: 140px;
+    z-index: 5;  
+    background: #fff;
+    display: none;  
+    color: #a7a7a7;
+}
+
+.menu-item:hover > .menu-child {
+    display: block;
+    color: #a59477;
+
+}
+
+.item-child, .item-child li {
+    padding: 7px 15px;
+    position: relative;
+}
+
+.menu-child ul {
+    display: none;
+}
+
+.menu-child .item-child:hover > ul {
+    display: block;
+    position: absolute;
+    width: 140px;
+    z-index: 5;  
+    color: #a7a7a7;
+    background: #fff;
+    top: 0;
+    left: 100%;
+}
+
+.menu-item > a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a7a7a7;
+}
+
+.social {
+    margin-left: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
+
+.rss {
+    color: #faaa5e;
+}
+
+.facebook {
+    color:#677fb5;
+}
+
+.twitter {
+    color: #70c2e9;
+}
+
+.basketball {
+    color:#e299c2;
+}
+
+.pinterest {
+    color:#d8545d;
+}
+
+.social-icon:hover {
+    color: red;
+}

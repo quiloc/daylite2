@@ -37,6 +37,12 @@
 
     .slider-content {
         padding: 0;
+        order: 2;
+    }
+
+    .img-slider {
+        order: 1;
+        margin-bottom: 25px;
     }
 
     h1 {
@@ -104,6 +110,11 @@
         margin-bottom: 10px;
     }
 
+    .portfolio-content-inner {
+        width: 100%;
+        margin: 20px;
+    }
+
     .blog-about-inner {
         flex-direction: column;
         padding: 0 10px;
@@ -138,6 +149,7 @@
     .footer-content {
         width: 100%;
     }
+
 
     .coppy-right-content{
         padding: 35px 10px;
@@ -178,15 +190,11 @@
     .portfolio-content .item {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-between;
     }
     
-    .portfolio-item {
-        margin: auto;
-    }
-
     .portfolio-content-inner {
-        width: 50%;
+        width: 49%;
         margin-bottom: 20px;
     }
 
@@ -210,24 +218,15 @@
         padding: 0 30px;
     }
 
-    .portfolio-content .item {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
-    }
-    
-    .portfolio-item {
-        margin: auto;
-    }
-
-    .portfolio-content-inner {
-        width: 50%;
-        margin-bottom: 20px;
-    }
-
     .testimonial-inner {
         padding: 0 50px;
     }
+
+    .portfolio-content-inner {
+        width: 49%;
+        margin: 10px;
+    }
+
 
     .footer-inner {
         flex-wrap: wrap;
@@ -247,8 +246,7 @@
 
     .portfolio-content .item {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-around;
     }
     
     .portfolio-item {
@@ -256,6 +254,7 @@
     }
 
     .portfolio-content-inner {
+        width: 49%;
         margin: 20px;
     }
 
@@ -271,6 +270,4 @@
     .footer-content {
         width: 45%;
     }
-
-
 }
