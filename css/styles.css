@@ -1,15 +1,39 @@
-@import url('header.css');
-@import url('body.css');
-@import url('footer.css');
-@import url('responsive.css');
+@import url('_header.css');
+@import url('_body.css');
+@import url('_footer.css');
+@import url('_responsive.css');
+
 @font-face {
-    src: url('../font/helvetica-neue-bold.ttf'),
-        url('../font/helvetica-neue-light.ttf'),
-        font-family: Helvetica;
+    src: url('../fonts/helvetica-neue-bold.ttf');
+    font-family: Helvetica;
+    font-weight: 700;
 }
 
-.font {
+@font-face {
+    src: url('../fonts/helvetica-neue-light.ttf');
     font-family: Helvetica;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('../fonts/helvetica-neue-regular.ttf');
+    font-family: Helvetica;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('../font/fa-regular-400.ttf');
+    font-family: Awesome;
+}
+
+body {
+    font-family: Helvetica;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b2b2b2;
+    overflow-x: hidden;
 }
 
 .container {
@@ -19,9 +43,11 @@
 
 a {
 	text-decoration: none;
+    color: #a7a7a7;
 }
 
 p {
     font-size: 18px;
     font-weight: 300;
 }
+
